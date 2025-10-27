@@ -57,12 +57,7 @@ echo "Docker Practical Exam Completed Successfully!"
 
 
 
-
-
-
-
-
-
+# ---------------------- GIT PRACTICAL 1 ----------------------
 
 # Create a new project folder
 mkdir GitDemo
@@ -72,17 +67,17 @@ cd GitDemo
 git init
 
 # Add a file
-echo "Hello from Shreyas" > demo.txt
+echo "Hello from xyz" > demo.txt
 git status
 
 # Add file to staging area
 git add demo.txt
 
 # Commit the changes
-git commit -m "Initial commit by Shreyas"
+git commit -m "Initial commit by xyz"
 
 # Connect local repo with remote repository
-git remote add origin https://github.com/shreyas/GitDemo.git
+git remote add origin https://github.com/xyz/GitDemo.git
 
 # Push files to remote repository
 git branch -M main
@@ -90,12 +85,7 @@ git push -u origin main
 
 
 
-
-
-
-
-
-
+# ---------------------- GIT PRACTICAL 2 ----------------------
 
 # Create and initialize repository
 mkdir GitBranchDemo
@@ -103,9 +93,9 @@ cd GitBranchDemo
 git init
 
 # Add and commit files
-echo "Main branch file by Shreyas" > main.txt
+echo "Main branch file by xyz" > main.txt
 git add .
-git commit -m "Main branch initial commit by Shreyas"
+git commit -m "Main branch initial commit by xyz"
 
 # Create a new branch
 git branch feature
@@ -114,9 +104,9 @@ git branch feature
 git checkout feature
 
 # Add files in feature branch
-echo "Feature branch changes by Shreyas" > feature.txt
+echo "Feature branch changes by xyz" > feature.txt
 git add .
-git commit -m "Added feature file by Shreyas"
+git commit -m "Added feature file by xyz"
 
 # Switch back to main branch
 git checkout main
@@ -126,18 +116,16 @@ git merge feature
 
 
 
-
-
-
+# ---------------------- GIT PRACTICAL 3 ----------------------
 
 # Clone repository to local system
-git clone https://github.com/shreyas/RemoteGitDemo.git
+git clone https://github.com/xyz/RemoteGitDemo.git
 cd RemoteGitDemo
 
 # Add new files
-echo "This is Shreyas's remote demo" > remote.txt
+echo "This is xyz's remote demo" > remote.txt
 git add .
-git commit -m "Added remote demo file by Shreyas"
+git commit -m "Added remote demo file by xyz"
 
 # Push changes to remote
 git push origin main
